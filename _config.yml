@@ -1,5 +1,7 @@
 name: Christina M Simmons, thing explainer
-markdowm: kramdown
+markdown: kramdown
+
+theme: minima
 
 permalink: /blog/:year/:month/:day/:title
 
