@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Christy Simmons did a thing.
+title: "Christy Simmons did a thing."
 date: 2019-02-13
 ---
 
