@@ -1,13 +1,7 @@
 name: Christina M Simmons, thing explainer
 markdown: kramdown
-
 theme: jekyll-theme-midnight
-
-permalink: /blog/:year/:month/:day/:title
 
 plugins:
  - jekyll-sitemap
  - jemoji
- 
-paginate: 6
-paginate_path: "/blog/page:num/"
