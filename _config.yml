@@ -1,6 +1,2 @@
 name: Christina M Simmons
 theme: jekyll-theme-midnight
-
-plugins:
- - jekyll-sitemap
- - jemoji
