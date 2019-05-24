@@ -1,0 +1,34 @@
+.header {
+    padding: 2rem 2rem;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $sm-size 0;
+    color: $darkgreen;
+    text-decoration: none;
+    a,a:visited {
+        color: $darkgreen;
+        text-decoration: none;
+    }
+}
+.current {
+    display: none;
+}
+
+.header__title {
+    font-family: Sarina;
+}
+
+.header__nav {
+    font-family: "Source Sans Pro"
+}
+
+nav {
+    a {
+        padding: 0 $sm-size;
+    }
+    
+}

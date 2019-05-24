@@ -1,0 +1,81 @@
+/////////Imports
+@import url('https://fonts.googleapis.com/css?family=Sarina|Source+Sans+Pro:200&display=swap');
+
+
+/////////Variables
+
+//Colors
+
+$khaki: #dddfd4;
+$yellow: #fae596;
+$lightgreen: #3fb0ac;
+$darkgreen: #173e43;
+$medgray:#999;
+$darkgray: #333;
+
+//Font names
+
+//Font sizing
+$font-size-small: 1.4rem;
+$font-size-large: 1.7rem;
+
+//Spacing and sizing
+
+$sm-size: 1.2rem;
+$med-size: 1.6rem;
+$lg-size: 3.2rem;
+$xl-size: 4.8rem;
+
+$desktop-breakpoint: 45rem;
+
+/////////Defaults
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $darkgray;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $med-size;
+  line-height: 1.6;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+h1,h2,h3 {
+  font-family: "Source Sans Pro";
+}
+
+a {
+  color: $lightgreen;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: $medgray;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+.title {
+  font-family: Sarina;
+}
+
+.list-top-level {
+  list-style: none;
+}
+

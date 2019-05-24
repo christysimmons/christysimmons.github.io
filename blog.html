@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+
+{% include searchbar.html %}
+
+<h1>Latest Posts</h1>
+<div class="blog-summary">
+  <ul class="list-top-level">
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,26 @@
+---
+title: Projects
+---
+
+<h1 class="project-title"> Projects </h1>
+<div class="projects-summary">
+    <ul class="project-list">
+        {% for project in site.projects %}
+        <li>
+            <div class='project-container'>
+                <div class='project-titlecard'>
+                    <a href="{{ project.url }}"><img class="project-image" src={{ project.screencap }} />
+                        <div class="centerblurb">
+                            <h3>
+                                {{ project.title | upcase }}
+                            </h3>
+                            <p>{{ project.content | markdownify }} </p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1> {{ page.title }} </h1>
+<h2>{{content | markdownify}}</h2>
+
+<ul class="project-links">
+        <li><a href={{ project.heroku_link }}>Heroku</a></li>
+        <li><a href={{ project.github_link }}>Github</a></li>
+    </ul>
+    <p>Made with:</p>
+    <ul class="project-utils">
+        {% for util in project.utilities %}
+        <li> {{ util }} </li>
+        {% endfor %}
+    </ul>
+
+
+<h3>Blog posts about this project</h3>
+<ul>
+    {% assign filtered_posts = site.posts | where: 'project', page.title %}
+    {% for post in filtered_posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
