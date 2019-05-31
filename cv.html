@@ -4,20 +4,35 @@ title: CV
 ---
 
 <h1> CV </h1>
+<h3>
+    Employment
+</h3>
 
-<ul>
+<ul class="list-top-level">
     {% for job in site.jobs %}
     <li>
-        <h3>
-            {{ job.employer_name }} - {{ job.city }}
-        </h3>
-        <h4> 
-            {{ job.title }}
-        </h4>
-        <p>
-            {{ job.start_date }} - {{ job.end_date }}
-        </p>
-        <p>{{ job.content | markdownify }}  </p>
+        <div class="cv-header">
+            <div class="cv-employer">
+                    {{ job.employer_name }} - {{ job.city }}
+            </div>
+            <div class="cv-dates">
+                {{ job.start_date }} - {{ job.end_date }}
+            </div>
+        </div>
+        <div class="cv-content">
+            <h4> 
+                {{ job.title }}
+            </h4>
+            <p>{{ job.content | markdownify }}  </p>
+        </div>
+
     </li>
 {% endfor %}
 </ul>
+
+<h3>
+Education
+</h3>
+<p>
+    George Mason University class of 2008 - B.A., Anthropology
+</p>

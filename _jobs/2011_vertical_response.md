@@ -1,6 +1,6 @@
 ---
 employer_name: Vertical Response   
-title: Job title
+title: Customer Support / Education Specialist
 city: San Francisco 
 start_date: August 2011
 end_date: October 2013

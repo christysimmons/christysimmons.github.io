@@ -1,4 +1,4 @@
-//PROJECT SUMMARY
+//PROJECT SUMMARY PAGE
 
 .projects-summary ul {
         list-style: none;
@@ -37,13 +37,15 @@
   }
 
 
-//PROJECT INDIVIDUAL
+//PROJECT INDIVIDUAL PAGE
 
 .project-links {
     width: 32em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style: none;
+    margin-bottom: $lg-size;
 }
 
 .project-utils {
@@ -51,4 +53,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style: none;
+}
+
+.util-li{
+    padding: 2px $sm-size;
+    //border: 1px solid $medgray;
+    background-color: $khaki;
+    border-radius: 5px;
 }

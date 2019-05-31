@@ -1,0 +1,19 @@
+.cv-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cv-employer{
+    font-size: .9em;
+}
+
+.cv-dates{
+    color: $medgray;
+    font-size: .8em;
+}
+
+.cv-content{
+    border-bottom: 1px dashed $medgray;
+    margin-bottom: $lg-size;
+}
