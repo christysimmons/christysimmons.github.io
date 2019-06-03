@@ -12,15 +12,22 @@
     position: relative;
     margin: 2rem;
     max-width: 50em;
-    min-width: 30em;
 }
 
 .project-image {
+    @media (max-width: 35rem) {
+        display: none;
+    }
     width: 100%;
     height: 100%;
 }
 
 .centerblurb {
+    @media (max-width: 35rem) {
+        position: relative;
+        bottom: auto;
+        left: auto;
+    }
     bottom: 10%;
     left: 40%;
     position: absolute;

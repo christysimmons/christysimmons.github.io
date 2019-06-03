@@ -6,4 +6,6 @@ start_date: June 2016
 end_date: present
 ---
 
-A blurb goes here.
+- Implementation and development support for Salesforce
+- Creating engaging copy for online marketing campaigns for small and medium businesses.
+- Crafting short and long form articles for trade publications.
